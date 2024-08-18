@@ -1,0 +1,26 @@
+.buttonBlock{
+    margin: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+}
+
+.buttonMainApp {
+
+margin: 0;
+    border-radius: 6px;
+    border: 1px solid #000;
+    width: 75px;
+    height: 25px;
+    font-weight: 500;
+    background-color: #c2c2c2;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.buttonMainApp:hover {
+    background-color: #5b5b5b;
+    color: whitesmoke;
+}
